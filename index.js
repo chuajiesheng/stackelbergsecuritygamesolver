@@ -205,3 +205,29 @@ exports.ssgSolver = function(utilities) {
         }
     }
 };
+
+p = [
+      {
+        "defender": {
+          "covered": 2,
+          "uncovered": -10
+        },
+        "attacker": {
+          "covered": -7,
+          "uncovered": 4
+        }
+      },
+      {
+        "defender": {
+          "covered": 7,
+          "uncovered": -4
+        },
+        "attacker": {
+          "covered": -1,
+          "uncovered": 3
+        }
+      }
+    ]
+
+result = exports.ssgSolver(p)
+console.log(result)
