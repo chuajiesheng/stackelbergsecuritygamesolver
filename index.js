@@ -209,22 +209,42 @@ exports.ssgSolver = function(utilities) {
 p = [
       {
         "defender": {
-          "covered": 2,
-          "uncovered": -10
+          "covered": 5,
+          "uncovered": -15
         },
         "attacker": {
-          "covered": -7,
-          "uncovered": 4
+          "covered": -8,
+          "uncovered": 10
         }
       },
       {
         "defender": {
-          "covered": 7,
-          "uncovered": -4
+          "covered": 3,
+          "uncovered": -11
         },
         "attacker": {
-          "covered": -1,
-          "uncovered": 3
+          "covered": -6,
+          "uncovered": 8
+        }
+      },
+      {
+        "defender": {
+          "covered": 2,
+          "uncovered": -7
+        },
+        "attacker": {
+          "covered": -3,
+          "uncovered": 5
+        }
+      },
+      {
+        "defender": {
+          "covered": 4,
+          "uncovered": -8
+        },
+        "attacker": {
+          "covered": -7,
+          "uncovered": 9
         }
       }
     ]
