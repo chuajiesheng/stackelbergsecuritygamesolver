@@ -6,6 +6,11 @@ An implementation of the [ERASER](http://teamcore.usc.edu/papers/2009/aamas-09-i
 
 Stackelberg Security Games have emerged as a powerful framework for solving difficult security challenges. For more details, check out http://teamcore.usc.edu/projects/security/. 
 
+## Run
+
+1. Install the required packages: `npm install`
+1. Run the sample code: `node index.js`
+
 ## Code Example
 
 Input an array of targets, each with a utility for the attacker and defender in covered and uncovered scenarios.
