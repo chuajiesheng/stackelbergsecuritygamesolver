@@ -2,6 +2,10 @@
 
 An implementation of the [ERASER](http://teamcore.usc.edu/papers/2009/aamas-09-industry.pdf) algorithm to solve Stackelberg Security Games. 
 
+## Acknowledgement
+
+This code is original developed by [rcmoore38](https://github.com/rcmoore38/stackelbergsecuritygamesolver).
+
 ## Motivation
 
 Stackelberg Security Games have emerged as a powerful framework for solving difficult security challenges. For more details, check out http://teamcore.usc.edu/projects/security/. 
